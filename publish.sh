@@ -1,6 +1,9 @@
 git add. && git commit -am"f string' && git push 
 
+
 git commit -a --amend --no-edit && git push
+
+
 # Add changes to the staging area
 git add .
 

@@ -66,7 +66,9 @@ Working with datetime objects becomes elegant and customizable.
 current_date = datetime.now()
 formatted_date = f"Today is {current_date:%Y-%m-%d}."
 custom_format = f"Formatted: {current_date:%A, %B %d, %Y}"
-F-Strings with Customized Classes
+```
+
+### F-Strings with Customized Classes
 Customized classes seamlessly integrate with F-strings, allowing for controlled object representation.
 
 ```python
