@@ -38,16 +38,6 @@ Controlling string length and alignment becomes a breeze with F-strings.
 short_message = f"{'Short':<10}"
 right_aligned = f"{'Right':>10}"
 ```
-
-### F-Strings with Dictionaries
-
-Effortlessly include dictionary values in F-strings for a clean and organized representation.
-
-```python
-student_info = {"name": "Sophia", "age": 24, "grade": "B+"}
-info_display = f"Student Details - Name: {student_info['name']}, Age: {student_info['age']}, Grade: {student_info['grade']}"
-```
-
 ### F-Strings with Numbers
 
 As we explore the depth of F-strings, their prowess extends beyond mere formatting, encompassing various aspects of numerical representation. Precision and alignment of numbers are effortlessly managed with F-strings.
@@ -58,11 +48,22 @@ precision_score = f"Score: {score:.2f}"
 print(precision_score)
 ```
 
+### F-Strings with Dictionaries
+
+Effortlessly include dictionary values in F-strings for a clean and organized representation.
+
+```python
+student_info = {"name": "Sophia", "age": 24, "grade": "B+"}
+info_display = f"Student Details - Name: {student_info['name']}, Age: {student_info['age']}, Grade: {student_info['grade']}"
+```
+
+
+
 ### F-Strings with Datetime Objects
 
 Working with datetime objects becomes elegant and customizable.
 
-````python
+```python
 current_date = datetime.now()
 formatted_date = f"Today is {current_date:%Y-%m-%d}."
 custom_format = f"Formatted: {current_date:%A, %B %d, %Y}"

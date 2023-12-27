@@ -61,8 +61,10 @@ def upload_file():
         if response.status_code == 201:
             message = "File uploaded and posted successfully. ✅"
         else:
+
+
        
-            message = "An error occurred. ❌"
+            message = f"An error occurred. ❌\n{response.text}"
            
 
     return render_template(
